@@ -1,0 +1,116 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Product</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Product</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Product Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Product Item ID</th>
+                                        <td>{{productItemDetails?.productItemNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Manufacturer</th>
+                                        <td>{{productItemDetails?.manufacturerName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Product </th>
+                                        <td>{{productItemDetails?.productName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Category</th>
+                                        <td>{{productItemDetails?.categoryName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Unit </th>
+                                        <td>{{productItemDetails?.unitName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vat </th>
+                                        <td>{{productItemDetails?.vatName}}</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Var Code</th>
+                                        <td>{{productItemDetails?.barCode}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">SKU</th>
+                                        <td>{{productItemDetails?.sku}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Product Type</th>
+                                        <td>{{getProductType(productItemDetails?.productType)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Organization</th>
+                                        <td>{{getOrganization(productItemDetails?.organizationId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Shop</th>
+                                        <td>{{getShop(productItemDetails?.shopId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(productItemDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{productItemDetails?.createdByName}} at
+                                    {{productItemDetails?.createdDateString}}
+                                </p>
+                                <p *ngIf="productItemDetails?.modifiedByName != null"> || Modified By
+                                    {{productItemDetails?.modifiedByName}} at {{productItemDetails?.modifiedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\bin\Debug\netcoreapp3.1\ProductionBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\bin\Debug\netcoreapp3.1\ProductionBLL.dll
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\bin\Debug\netcoreapp3.1\ProductionBLL.pdb
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\obj\Debug\netcoreapp3.1\ProductionBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\obj\Debug\netcoreapp3.1\ProductionBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\obj\Debug\netcoreapp3.1\ProductionBLL.dll
+E:\Repositories\IMSERP\Server_Side\ProductionBLL\obj\Debug\netcoreapp3.1\ProductionBLL.pdb

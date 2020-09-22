@@ -1,0 +1,12 @@
+.btn-custom{
+    width: 120px!important;
+}
+.mat-option-text {
+    text-align: center!important;
+}
+.mat-form-field{
+    text-align: center!important;
+  }
+  .mat-card{
+    box-shadow: 10px 10px 20px #999!important;
+}

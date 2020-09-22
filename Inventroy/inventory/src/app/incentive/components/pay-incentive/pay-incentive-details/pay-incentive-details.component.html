@@ -1,0 +1,99 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Incentive</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Pay Incentive</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Pay Incentive</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Pay Incentive Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Pay Incentive Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Pay Incentive ID</th>
+                                        <td>{{payIncentiveDetails?.payIncentiveNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Payment Type Name</th>
+                                        <td>{{payIncentiveDetails?.paymentTypeName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Incentive Type Name</th>
+                                        <td>{{payIncentiveDetails?.incentiveTypeName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Paid To Employee</th>
+                                        <td>{{payIncentiveDetails?.paidToName}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Payment Date</th>
+                                        <td colspan="2">{{payIncentiveDetails?.paymentDateString}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Amount</th>
+                                        <td>{{payIncentiveDetails?.amount}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Responsible Employee</th>
+                                        <td>{{payIncentiveDetails?.responsibleEmpName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(payIncentiveDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{payIncentiveDetails?.createdByName}} at
+                                    {{payIncentiveDetails?.createdDateString}} </p>
+                                <p *ngIf="payIncentiveDetails?.updatedByName != null">Updated By
+                                    {{payIncentiveDetails?.updatedByName}} at
+                                    {{payIncentiveDetails?.updatedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

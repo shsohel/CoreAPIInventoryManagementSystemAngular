@@ -1,0 +1,184 @@
+<!-- <mat-toolbar class="app-top-header">App Header</mat-toolbar> -->
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="admin">
+        <i class="material-icons menu-icon">
+          verified_user
+        </i>Admin</button>
+      <mat-menu #admin="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="user" routerLink="/administration">User</button>
+        <button mat-menu-item routerLink="/administration/employeeList">Employee </button>
+        <button mat-menu-item routerLink="/administration/organizationList">Orgnization</button>
+        <button mat-menu-item routerLink="/administration/shopList">Shop</button>
+
+        <button mat-menu-item [matMenuTriggerFor]="addBank">Link1</button>
+        <button mat-menu-item [matMenuTriggerFor]="product">Product</button>
+        <button mat-menu-item [matMenuTriggerFor]="production">Production</button>
+
+      </mat-menu>
+      <mat-menu #user="matMenu">
+        <button mat-menu-item routerLink="/user/createUserRequestList">User Create Request</button>
+        <button mat-menu-item routerLink="/user/userList">User List</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <mat-menu #product="matMenu">
+        <button mat-menu-item routerLink="/administration/unitList">Unit List </button>
+        <button mat-menu-item routerLink="/administration/categoryList">Category List </button>
+        <button mat-menu-item routerLink="/administration/productList"> Product List</button>
+        <button mat-menu-item routerLink="/administration/manufacturerList"> Manufacturer List</button>
+        <button mat-menu-item routerLink="/administration/productItemList"> ProducT Item List</button>
+        <button mat-menu-item routerLink="/administration/spAttributeList">Attribute List </button>
+      </mat-menu>
+      <mat-menu #production="matMenu">
+        <button mat-menu-item routerLink="/administration/productionList">Production List </button>
+      </mat-menu>
+      <mat-menu #addBank="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Link1">
+        <i class="material-icons menu-icon">
+          settings
+        </i>App Setting</button>
+      <mat-menu #Link1="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="Link2">Link1</button>
+      </mat-menu>
+      <mat-menu #Link2="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Finance">
+        <i class="material-icons menu-icon">
+          monetization_on
+        </i>
+        Finance</button>
+      <mat-menu #Finance="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="BalanceTransfer">Balance Transfer</button>
+        <button mat-menu-item [matMenuTriggerFor]="Link24"></button>
+        <button mat-menu-item [matMenuTriggerFor]="Link24"></button>
+        <button mat-menu-item [matMenuTriggerFor]="Link24"></button>
+        <button mat-menu-item [matMenuTriggerFor]="Link24"></button>
+        <button mat-menu-item routerLink="/finance/vatList">VAT</button>
+      </mat-menu>
+      <mat-menu #BalanceTransfer="matMenu">
+        <button mat-menu-item routerLink="/finance/internalTransferList">Internal Transfer</button>
+        <button mat-menu-item routerLink="/finance/externalTransferList">External Transfer</button>
+        <button mat-menu-item routerLink="/finance/bankTransferList">Bank Transfer</button>
+        <button mat-menu-item routerLink="/finance/externalPersonList">External Person</button>
+        <button mat-menu-item routerLink="/finance/bankAccountList">Bank</button>
+        <button mat-menu-item routerLink="/finance/businessRelativeList">Business Relative</button>
+      </mat-menu>
+      <mat-menu #Link24="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Expense">Expense</button>
+      <mat-menu #Expense="matMenu">
+        <button mat-menu-item routerLink="/expense/expenseHeadList">Expense Head</button>
+        <button mat-menu-item routerLink="/expense/expenseTypeList">Expense Type</button>
+        <button mat-menu-item routerLink="/expense/generalExpenseList">General Expense</button>
+        <button mat-menu-item routerLink="/expense/fixedExpenseList">Fixed Expense</button>
+        <button mat-menu-item routerLink="/expense/fixedExpenseSettingList">Fixed Expense Setting</button>
+        <button mat-menu-item routerLink="/expense/salaryPaymentList">Salary Payment</button>
+        <button mat-menu-item>Project Expense</button>
+      </mat-menu>
+      <mat-menu #Link2="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Link1">Incentive</button>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Link12">Stock</button>
+      <mat-menu #Link12="matMenu">
+        <button mat-menu-item routerLink="/stock/warehouseList">Warehouse</button>
+        <button mat-menu-item [matMenuTriggerFor]="Link2">Link2</button>
+      </mat-menu>
+      <mat-menu #Link1="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="Link2">Link2</button>
+        <button mat-menu-item routerLink="/incentive/payIncentiveList">Pay Incentive</button>
+      </mat-menu>
+      <mat-menu #Link2="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Sale">Sales</button>
+      <mat-menu #Sale="matMenu">
+        <button mat-menu-item routerLink="">Sales List</button>
+        <button mat-menu-item routerLink="/sale/vendorList">Vendor List</button>
+        <button mat-menu-item routerLink="/sale/customerList">Customer List</button>
+        <button mat-menu-item routerLink="/sale/colectionList">Collection List</button>
+        <button mat-menu-item [matMenuTriggerFor]="Link2">Link1</button>
+        <button mat-menu-item>Link2</button>
+      </mat-menu>
+      <mat-menu #Link2="matMenu">
+        <button mat-menu-item>Link1</button>
+        <button mat-menu-item>Link2</button>
+        <button mat-menu-item>Link3</button>
+        <button mat-menu-item>Link4</button>
+        <button mat-menu-item>Link5</button>
+      </mat-menu>
+      <button mat-button class='btn-menu' [matMenuTriggerFor]="Purchase">Purchase</button>
+      <mat-menu #Purchase="matMenu">
+        <button mat-menu-item routerLink="/purchase/purchaseList">Purchse List</button>
+        <button mat-menu-item routerLink="/purchase/supplierList">Supplier List</button>
+        <button mat-menu-item>Supplier Ledger</button>
+        <button mat-menu-item>Payment List</button>
+        <button mat-menu-item>Link 01</button>
+      </mat-menu>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="app-shadow " color="primary">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>IMSERP</span>
+      <span class="spacer"></span>
+      <a mat-list-item routerLink="user/login" class="nav-link app-nav-link"
+        *ngIf="dataService.isLoggedIn == undefined || dataService.isLoggedIn == false">
+        <i class="material-icons app-nav-icon">account_circle</i>
+      </a>
+      <a mat-list-item href="#" class="nav-link app-nav-link">
+        <p>
+          <mat-icon matBadge="15" class="app-nav-icon app-nav-notification" matBadgeColor="warn">notifications
+          </mat-icon>
+        </p>
+      </a>
+      <button class="header-profile-btn" [matMenuTriggerFor]="beforeMenu" *ngIf="dataService.isLoggedIn">
+        <img class="header-image" *ngIf="userDetails.profilePicture != undefined"
+          [src]="appHost.hostName+ 'images/userimages/' + userDetails.profilePicture" />
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <div class="d-flex justify-content-center" *ngIf="userDetails.profilePicture != undefined">
+          <img class="header-image-pf" [src]="appHost.hostName + 'images/userimages/' + userDetails.profilePicture" />
+        </div>
+        <h6 class="text-center">{{userDetails.userName}}</h6>
+        <mat-divider></mat-divider>
+        <div class="d-flex justify-content-center mt-1">
+          <button mat-stroked-button (click)="onLogout()">Logout</button>
+        </div>
+      </mat-menu>
+    </mat-toolbar>
+    <div class="app-container">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

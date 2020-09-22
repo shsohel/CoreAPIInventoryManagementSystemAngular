@@ -1,0 +1,102 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Attribute</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Add Attribute</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5 class="font-material">Add Attribute</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <mat-horizontal-stepper [linear]="false" #stepper>
+            <mat-step [stepControl]="addAttributeForm">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="addAttributeForm" novalidate class="example-form">
+                        <ng-template matStepLabel>Attribute</ng-template>
+                        <mat-toolbar class="d-flex-inline  mb-5" color="primary">
+                            <mat-toolbar-row class="grid">
+                                <span class="title-center">Specification Attribute</span>
+                            </mat-toolbar-row>
+                        </mat-toolbar>
+                        <input matInput hidden formControlName="id">
+                        <div class="row mt-5">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <input matInput placeholder="Attribute Name" formControlName="name">
+                                    <mat-error *ngIf="addAttributeForm.get('name').hasError('required')">
+                                       Name is  <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <input matInput placeholder="Sequence No" formControlName="sequence">
+                                    <mat-error *ngIf="addAttributeForm.get('sequence').hasError('required')">
+                                        Sequence No is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext class="btn-custom mt-2 float-right"
+                                (click)="onAttributeSave()" color="primary">Next</button>
+                            <button type="button" routerLink="/administration/spAttributeList" mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+            <mat-step [stepControl]="addAttributeValueForm" [completed]="true">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="addAttributeValueForm" class="example-form">
+                        <ng-template matStepLabel> Attribute Value</ng-template>
+                        <div class="row">
+                            <mat-toolbar class="d-flex-inline  mb-5">
+                                <mat-toolbar-row class="grid">
+                                    <span class="title-center"> Attribute Value</span>
+                                </mat-toolbar-row>
+                            </mat-toolbar>
+                             <div class="col-sm-12" formArrayName='attributeValue'
+                                *ngFor="let attri of addAttributeValueForm.get('attributeValue').controls; let i = index;">
+                                <div [formGroupName]='i'>
+                                    <mat-form-field class="input-full-width">
+                                        <input matInput placeholder="Attribute Value" formControlName="attrValue">
+                                        <mat-error *ngIf="attri.get('attrValue').hasError('required')">
+                                            Attribute Value is <strong>required</strong>
+                                        </mat-error>
+                                    </mat-form-field>
+                                    <div class="d-flex justify-content-center"
+                                        *ngIf="addAttributeValueForm.get('attributeValue').length > 1">
+                                        <label class="hover-hand" for="removeEduQual">Remove</label>
+                                        <button id="removeEduQual" class="btn-pull-right" type="button"
+                                            (click)="onRemoveAtrributeValue(i)" mat-icon-button color="warn"
+                                            aria-label="Example icon-button with a heart icon">
+                                            <mat-icon>remove_circle</mat-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <label class="hover-hand" for="AddSizeButton"> Add More Attribute Value</label><button
+                                id="AddSizeButton" type="button" (click)="onAddMoreAttributeValue()" mat-icon-button
+                                color="primary" aria-label="Example icon-button with a heart icon">
+                                <mat-icon>add_box</mat-icon>
+                            </button>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext (click)="onAttributeValueSave()"
+                                class="btn-custom mt-2 float-right" color="primary">Done</button>
+                            <button type="button" matStepperPrevious mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="green">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+        </mat-horizontal-stepper>
+    </div>
+</div>

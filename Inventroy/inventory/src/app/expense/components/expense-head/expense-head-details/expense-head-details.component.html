@@ -1,0 +1,91 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Expense</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Expense Head</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Expense Head</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Expense Head Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Expense Head Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Expense Head ID</th>
+                                        <td>{{expenseHeadDetails?.expenseHeadNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Expense Type Name</th>
+                                        <td>{{expenseHeadDetails?.expenseTypeName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Parent Type Name</th>
+                                        <td>{{expenseHeadDetails?.parentTypeName}}</td>
+                                    </tr>                                  
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Name</th>
+                                        <td>{{expenseHeadDetails?.name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Description</th>
+                                        <td>{{expenseHeadDetails?.description}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(expenseHeadDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{expenseHeadDetails?.createdByName}} at
+                                    {{expenseHeadDetails?.createdDateString}} </p>
+                                <p *ngIf="expenseHeadDetails?.updatedByName != null">Updated By
+                                    {{expenseHeadDetails?.updatedByName}} at
+                                    {{expenseHeadDetails?.updatedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

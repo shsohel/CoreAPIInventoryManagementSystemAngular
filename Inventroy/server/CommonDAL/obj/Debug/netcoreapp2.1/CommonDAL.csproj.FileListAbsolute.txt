@@ -1,0 +1,34 @@
+E:\Repositories\IMSERP\Server_Side\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.deps.json
+E:\Repositories\IMSERP\Server_Side\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb

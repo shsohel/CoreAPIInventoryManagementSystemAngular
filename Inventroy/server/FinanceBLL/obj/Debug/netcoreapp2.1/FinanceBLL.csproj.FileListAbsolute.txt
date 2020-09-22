@@ -1,0 +1,54 @@
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
+E:\Repositories\IMSERP\Server_Side\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb

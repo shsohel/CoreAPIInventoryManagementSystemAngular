@@ -1,0 +1,54 @@
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb

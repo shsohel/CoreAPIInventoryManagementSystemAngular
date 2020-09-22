@@ -1,0 +1,51 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Finance</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Internal Trasfer</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Internal Trasfer</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Internal Trasfer</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addInternalTransferForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field>
+                <input matInput class="input-full-width" [matDatepicker]="dp" placeholder="Date"
+                    formControlName="sentDate">
+                <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+                <mat-error *ngIf="addInternalTransferForm.get('sentDate').hasError('required')">
+                    Date is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Sent To" formControlName="sentTo">
+                <mat-error *ngIf="addInternalTransferForm.get('sentTo').hasError('required')">
+                    Sent To is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Amount" formControlName="amount">
+                <mat-error *ngIf="addInternalTransferForm.get('amount').hasError('required')">
+                    Amount is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea matInput placeholder="Note" formControlName="note"></textarea>
+                <mat-error *ngIf="addInternalTransferForm.get('note').hasError('required')">
+                    Note is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/finance/internalTransferList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

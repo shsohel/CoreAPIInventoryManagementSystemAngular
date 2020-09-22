@@ -1,0 +1,46 @@
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+E:\Repositories\IMSERP\Server_Side\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb

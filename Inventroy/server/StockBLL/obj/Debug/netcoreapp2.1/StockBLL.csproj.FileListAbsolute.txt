@@ -1,0 +1,53 @@
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.dll
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.pdb
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+E:\Repositories\IMSERP\Server_Side\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.dll
+E:\Repositories\IMSERP\Server_Side\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\StockBLL\obj\Debug\netcoreapp2.1\StockBLL.pdb

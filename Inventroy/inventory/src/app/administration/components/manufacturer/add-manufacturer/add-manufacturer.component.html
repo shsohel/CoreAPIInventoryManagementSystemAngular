@@ -1,0 +1,36 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Manufacturer</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Manufacturer</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Manufacturer</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addManufacturerForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Manufacturer Name" formControlName="name">
+                <mat-error *ngIf="addManufacturerForm.get('name').hasError('required')">
+                    Manufacturer name is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea  matInput placeholder="Manufacturer Description" formControlName="description"></textarea>
+                <mat-error *ngIf="addManufacturerForm.get('description').hasError('required')">
+                 Description is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/administration/manufacturerList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

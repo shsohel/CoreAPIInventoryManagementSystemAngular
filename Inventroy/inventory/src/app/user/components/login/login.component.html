@@ -1,0 +1,41 @@
+<div class="sign-up-container">
+    <img class="img-sing" src="/assets/images/common/signup.svg" />
+</div>
+<div class="sign-up-container-top">
+    <img class="img-sing" src="/assets/images/common/wellcome.svg" />
+</div>
+<mat-card class="sign-up-form">
+    <div class="form-header">
+        <h5 class="text-center">Login</h5>
+    </div>
+    <mat-card-content class="mt-5">
+        <form [formGroup]="loginForm" >
+            <mat-form-field appearance="fill">
+                <mat-label>Enter User Name</mat-label>
+                <input formControlName="userName" matInput>
+                <mat-error *ngIf="loginForm.get('userName').hasError('required')">
+                    User Name is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Enter your password</mat-label>
+                <input formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+                <mat-error *ngIf="loginForm.get('password').hasError('required')">
+                    Password is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <div class="col-sm-12 d-flex justify-content-center mb-2">
+                <button type="button" id="sendRequestButton" (click)="onLogin()" mat-stroked-button class="btn-custom float-right"
+                    color="primary">Login</button>
+            </div>
+        </form>
+        <mat-divider></mat-divider>
+        <div class="col-sm-12 d-flex justify-content-center mt-2">
+            <a mat-button style="text-decoration: none; width: 100%;" routerLink="/user/forgotPassword">Forget password?</a>
+        </div>
+    </mat-card-content>
+</mat-card>

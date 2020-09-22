@@ -1,0 +1,135 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Purchase</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Purchase</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Purchase</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Purchase Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Purchase Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Purchase ID</th>
+                                        <td>{{purchaseDetails?.purchaseNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Purchase Order ID</th>
+                                        <td>{{purchaseDetails?.purchaseOrderId}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">WareHouse Id</th>
+                                        <td>{{purchaseDetails?.wareHouseId}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Supplier</th>
+                                        <td>{{purchaseDetails?.supplierName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Paid By (Employee)</th>
+                                        <td colspan="2">{{purchaseDetails?.paidByEmpName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Responsible Employee</th>
+                                        <td>{{purchaseDetails?.responsibleEmpName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Date</th>
+                                        <td colspan="2">{{purchaseDetails?.dateString}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Is Locked</th>
+                                        <td colspan="2">{{purchaseDetails?.isLocked}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Is Warehoused</th>
+                                        <td colspan="2">{{purchaseDetails?.isWarehoused}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Paid Amount</th>
+                                        <td colspan="2">{{purchaseDetails?.paidAmount}}</td>
+                                    </tr>                                    
+                                    <tr>
+                                        <th scope="row">Transport Cost</th>
+                                        <td colspan="2">{{purchaseDetails?.transportCost}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Labour Cost</th>
+                                        <td>{{purchaseDetails?.labourCost}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Others Cost</th>
+                                        <td>{{purchaseDetails?.othersCost}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">VAT</th>
+                                        <td>{{purchaseDetails?.vat}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Total Cost</th>
+                                        <td colspan="2">{{purchaseDetails?.amount}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Note</th>
+                                        <td>{{purchaseDetails?.note}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(purchaseDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{purchaseDetails?.createdByName}} at
+                                    {{purchaseDetails?.createdDateString}} </p>
+                                <p *ngIf="purchaseDetails?.modifiedByName != null"> Modified By
+                                    {{purchaseDetails?.modifiedByName}} at
+                                    {{purchaseDetails?.modifiedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

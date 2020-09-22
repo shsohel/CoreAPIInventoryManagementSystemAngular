@@ -1,0 +1,67 @@
+<div class="sign-up-container">
+    <img class="img-sing" src="/assets/images/common/signup.svg" />
+</div>
+<div class="sign-up-container-top">
+    <img class="img-sing" src="/assets/images/common/wellcome.svg" />
+</div>
+<mat-card class="sign-up-form" *ngIf="!hasToken">
+    Please contact with admin to sign up
+</mat-card>
+<mat-card class="sign-up-form" *ngIf="hasToken">
+    <div class="form-header">
+        <h5 class="text-center">Sign Up</h5>
+    </div>
+    <mat-card-content class="mt-5">
+        <form [formGroup]="signUpForm">
+            <mat-form-field appearance="fill">
+                <mat-label>Enter User Name</mat-label>
+                <input formControlName="userName" matInput>
+                <mat-error *ngIf="signUpForm.get('userName').hasError('required')">
+                    User Name is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Mobile</mat-label>
+                <input formControlName="mobileNo" readonly matInput>
+                <mat-error *ngIf="signUpForm.get('mobileNo').hasError('required')">
+                    Mobile Number is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" readonly matInput>
+                <mat-error *ngIf="signUpForm.get('email').hasError('required')">
+                    Email is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Enter your password</mat-label>
+                <input formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+                <mat-error *ngIf="signUpForm.get('password').hasError('required')">
+                   Password is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Confirm your password</mat-label>
+                <input formControlName="confirmPassword" matInput [type]="hide ? 'password' : 'text'">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+                <mat-error *ngIf="signUpForm.get('confirmPassword').hasError('required')">
+                    Confirm password is<strong> required</strong>
+                </mat-error>
+            </mat-form-field>
+            <div class="col-sm-12 d-flex justify-content-end">
+                <button type="button" routerLink="/administration/institiuteDetails"  mat-raised-button class="btn-custom mr-2 float-right"
+                    color="warn">Cancel</button>
+                <button (click)="onSignUp()" id="sendRequestButton" mat-raised-button class="btn-custom float-right"
+                color="primary">SignUp</button>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>

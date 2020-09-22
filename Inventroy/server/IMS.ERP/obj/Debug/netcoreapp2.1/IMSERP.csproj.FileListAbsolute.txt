@@ -1,0 +1,128 @@
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.deps.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.dev.json
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.pdb
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cache
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorTargetAssemblyInfo.cache
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.dll
+E:\Repositories\IMSERP\Server_Side\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.dev.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorTargetAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.dev.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorTargetAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.genruntimeconfig.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.runtimeconfig.dev.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\PurchaseBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\bin\Debug\netcoreapp2.1\StockBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorAssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.RazorTargetAssemblyInfo.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\IMS.ERP\obj\Debug\netcoreapp2.1\IMSERP.genruntimeconfig.cache

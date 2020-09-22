@@ -1,0 +1,62 @@
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfoInputs.cache
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfo.cs
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.deps.json
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.dll
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CopyComplete
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.dll
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.pdb
+E:\Repositories\IMSERP\Server_Side\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csprojAssemblyReference.cache
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+E:\Repositories\IMSERP\Server_Side\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\SimpleApi\SimpleApi\sssssss\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.deps.json
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\AdminBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csprojAssemblyReference.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfoInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.AssemblyInfo.cs
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CoreCompileInputs.cache
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.csproj.CopyComplete
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.dll
+C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\AdminBLL\obj\Debug\netcoreapp2.1\AdminBLL.pdb
