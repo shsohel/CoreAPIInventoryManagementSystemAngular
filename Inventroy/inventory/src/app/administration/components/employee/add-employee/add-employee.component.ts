@@ -48,6 +48,7 @@ export class AddEmployeeComponent implements OnInit {
   // bloodGroup = BloodGroup;
   // result = Result;
   // relationshipEnum = RelationshipEnum;
+  isActive =true;
   keysOfcitizenshipStatus: any = new Object();
   citizenshipStatus = CitizenshipStatus;
   religion = Religion;

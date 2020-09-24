@@ -1,5 +1,5 @@
-<!-- <app-alert [message]="response.message" *ngFor="let r of reset" [statusCode]="response.statusCode"></app-alert> -->
-<div class="card mt-1" >
+<app-alert [message]="response.message" *ngFor="let r of reset" [statusCode]="response.statusCode"></app-alert>
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
     <!-- <div class="card mt-1" [class.mat-elevation-z2]="!isActive"></div> -->
     <mat-card class="mat-medium-font">
         <nav aria-label="breadcrumb">
