@@ -14,3 +14,12 @@
 "UserName": "shsohel",
 "Password": "Shs@123Sj5"
 }
+
+
+
+{
+  "Email": "shsohel.tc@gmail.com",
+  "Password": "Shs@123Sj5",
+  "ConfirmPassword": "Shs@123Sj5",
+  "UserName": "shsohel",
+}

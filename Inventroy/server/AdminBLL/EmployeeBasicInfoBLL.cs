@@ -16,12 +16,14 @@ namespace AdminBLL
         private readonly IRepository<EmployeeBasicInfo> repository;
         private readonly IRepository<Employee> emrepository;
 
-   
+        private readonly UserManager<User> userManager;
 
-        public EmployeeBasicInfoBLL(IRepository<EmployeeBasicInfo> repository, IRepository<Employee> emrepository)
+
+        public EmployeeBasicInfoBLL(IRepository<EmployeeBasicInfo> repository, IRepository<Employee> emrepository, UserManager<User> userManager)
         {
             this.repository = repository;
             this.emrepository = emrepository;
+            this.userManager=userManager;
        
         }
         public async Task<IEnumerable<EmployeeBasicInfoViewModel>> GetEmployeeBasicInfos()
