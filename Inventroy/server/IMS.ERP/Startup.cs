@@ -19,7 +19,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Swagger;
 namespace IMSERP
 {
     public class Startup
@@ -28,12 +29,44 @@ namespace IMSERP
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("api", new OpenApiInfo { Title = "TestSweggarTwo" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    Description = "Input Your Bearer Token i Bearer {Your Token Here} to access API"
+                });
+                c.AddSecurityRequirement(
+                    new OpenApiSecurityRequirement
+                    {
+                        {
+                            new OpenApiSecurityScheme
+                         {
+                            Reference= new OpenApiReference
+                            {
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            },
+                            Scheme="Bearer",
+                            Name="Bearer",
+                            In=ParameterLocation.Header,
+                         },
+                        new List <string>()
+                        }
+                    });
+            });
+
             services.Configure<IMSSetting>(Configuration.GetSection("IMSSetting"));
             services.AddScoped<IRepository<Customer>, Repository<Customer>>();
             services.AddScoped<IRepository<Vendor>, Repository<Vendor>>();
@@ -116,7 +149,6 @@ namespace IMSERP
              {
                  x.SaveToken = false;
                  x.RequireHttpsMetadata = false;
-
                  x.TokenValidationParameters = new TokenValidationParameters
                  {
                      ValidateIssuer = false,
@@ -135,9 +167,10 @@ namespace IMSERP
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/api/swagger.json", "TestSweggarTwo v1")
+            );
             app.UseStaticFiles();
-
             app.UseCors(options => options
                            .WithOrigins(Configuration["IMSSetting:IMSHost"].ToString())
                            .AllowAnyMethod()

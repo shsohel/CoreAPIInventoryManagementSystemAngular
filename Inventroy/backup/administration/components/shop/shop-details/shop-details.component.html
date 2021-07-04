@@ -1,0 +1,110 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Administration</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Shop</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Shop Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Shop Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Shop ID</th>
+                                        <td>{{shopDetails?.code}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Name</th>
+                                        <td>{{shopDetails?.name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Designation</th>
+                                        <td>{{shopDetails?.designation}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Shop Owner</th>
+                                        <td>{{shopDetails?.owner}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Address</th>
+                                        <td>{{shopDetails?.address1}}</td>
+                                    </tr>
+                                    <tr *ngIf="address != null">
+                                        <th scope="row">Second Address</th>
+                                        <td>{{shopDetails?.address2}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Email For Login</th>
+                                        <td colspan="2">{{shopDetails?.emailForSystemGeneratedMail}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Password For Login</th>
+                                        <td colspan="2">{{shopDetails?.passwordForSystemGeneratedMail}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Contact Number</th>
+                                        <td colspan="2">{{shopDetails?.phone}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">VAT Reg.No.</th>
+                                        <td>{{shopDetails?.vatRegNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(shopDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{shopDetails?.createdByName}} at
+                                    {{shopDetails?.createdDateString}} </p>
+                                <p *ngIf="shopDetails?.modifiedByName != null"> Modified By
+                                    {{shopDetails?.modifiedByName}} at
+                                    {{shopDetails?.modifiedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

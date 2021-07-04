@@ -1,0 +1,104 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Purchase</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Purchase</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Purchase</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Purchase</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addPurchaseForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Purchase Order Id" formControlName="purchaseOrderId">
+                <mat-error *ngIf="addPurchaseForm.get('purchaseOrderId').hasError('required')">
+                    Purchase Order ID is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Warehouse" formControlName="wareHouseId">
+                <mat-error *ngIf="addPurchaseForm.get('wareHouseId').hasError('required')">
+                    Warehouse is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Supplier" formControlName="supplierId">
+                <mat-error *ngIf="addPurchaseForm.get('wareHouseId').hasError('required')">
+                    Supplier is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="transportCost" formControlName="transportCost">
+                <mat-error *ngIf="addPurchaseForm.get('transportCost').hasError('required')">
+                    Transport Cost is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Labour Cost" formControlName="labourCost">
+                <mat-error *ngIf="addPurchaseForm.get('labourCost').hasError('required')">
+                    Labour Cost is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Others Cost" formControlName="othersCost">
+                <mat-error *ngIf="addPurchaseForm.get('othersCost').hasError('required')">
+                    Others Cost is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="VAT" formControlName="vat">
+                <mat-error *ngIf="addPurchaseForm.get('vat').hasError('required')">
+                    VAT is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-card-content>
+                <section class="example-section">
+                    <mat-checkbox class="example-margin" formControlName="isLocked">Checked</mat-checkbox>
+                </section>
+                <section class="example-section">
+                    <mat-checkbox class="example-margin" formControlName="isWarehoused">isWarehoused</mat-checkbox>
+                </section>
+            </mat-card-content>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Total Cost" formControlName="amount">
+                <mat-error *ngIf="addPurchaseForm.get('amount').hasError('required')">
+                    Total Cost is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Paid Amount" formControlName="paidAmount">
+                <mat-error *ngIf="addPurchaseForm.get('paidAmount').hasError('required')">
+                    Paid Amount is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Paid By Employee" formControlName="paidByEmpId">
+                <mat-error *ngIf="addPurchaseForm.get('paidByEmpId').hasError('required')">
+                    Paid By Employee is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea matInput placeholder="Note" formControlName="note"></textarea>
+                <mat-error *ngIf="addPurchaseForm.get('note').hasError('required')">
+                    Note is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Responsible Employee" formControlName="responsibleEmpId">
+                <mat-error *ngIf="addPurchaseForm.get('responsibleEmpId').hasError('required')">
+                    Responsible Employee is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/purchase/purchaseList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

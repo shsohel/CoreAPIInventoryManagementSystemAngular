@@ -1,0 +1,188 @@
+<div class="card-body mt-3">
+    <div class="page_header">
+        <div class="page_name_title">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Purchase</a></li>
+                    <i class="fas fa-square-full list_style_square"></i>
+                    <li class="breadcrumb-item active" aria-current="page">Purchase</li>
+                </ol>
+            </nav>
+            <h5>Purchase List</h5>
+        </div>
+        <div class="page_action text-right">
+            <button
+                style=" box-shadow:  0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12)"
+                mat-button mat-stroked-button color="warn" [matMenuTriggerFor]="beforeMenu">Action
+                <i class="material-icons">
+                    navigate_next
+                </i>
+            </button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+                <button mat-menu-item routerLink="/purchase/addPurchase">Add New</button>
+                <button mat-menu-item>Download PDF</button>
+            </mat-menu>
+        </div>
+    </div>
+</div>
+<div class="table-search-form-div" (click)="closeSearchBox()">
+</div>
+<div class="mat-elevation-z8 mt-3">
+    <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="purchaseNo">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('0', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('0', this)"></i> Purchase ID
+                <i class="fas fa-filter" (click)="showSearchBox('purchaseNoSearchBox')"></i>
+                <form role="search" id="purchaseNoSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By Purchase ID">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row" class="text-center"> {{row.purchaseNo}} </td>
+        </ng-container>
+        <ng-container matColumnDef="dateString">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('1', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('1', this)"></i> Date
+                <i class="fas fa-filter" (click)="showSearchBox('dateStringSearchBox')"></i>
+                <form role="search" id="dateStringSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By Date">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row" class="text-center"> {{row.dateString}} </td>
+        </ng-container>
+        <ng-container matColumnDef="purchaseOrderId">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('2', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('2', this)"></i> Purchase Order ID
+                <i class="fas fa-filter" (click)="showSearchBox('purchaseOrderIdSearchBox')"></i>
+                <form role="search" id="purchaseOrderIdSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By Purchase Order Id">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row"> {{row.purchaseOrderId}} </td>
+        </ng-container>
+        <ng-container matColumnDef="supplierName">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('3', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('3', this)"></i> Supplier
+                <i class="fas fa-filter" (click)="showSearchBox('supplierNameSearchBox')"></i>
+                <form role="search" id="supplierNameSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By supplier">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row" class="text-center"> {{row.supplierName}} </td>
+        </ng-container>
+        <ng-container matColumnDef="amount">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('3', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('3', this)"></i> Amount
+                <i class="fas fa-filter" (click)="showSearchBox('amountSearchBox')"></i>
+                <form role="search" id="amountSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By Amount">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row" class="text-center"> {{row.amount}} </td>
+        </ng-container>
+        <ng-container matColumnDef="responsibleEmpName">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('3', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('3', this)"></i> Responsible Employee
+                <i class="fas fa-filter" (click)="showSearchBox('responsibleEmpNameSearchBox')"></i>
+                <form role="search" id="responsibleEmpNameSearchBox" method="get" class="table-search-form">
+                    <mat-form-field class="example-form-field ">
+                        <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                            placeholder="Search By responsible employee">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </form>
+            </th>
+            <td mat-cell *matCellDef="let row" class="text-center"> {{row.responsibleEmpName}} </td>
+        </ng-container>
+        <ng-container matColumnDef="statusName">
+            <th mat-header-cell *matHeaderCellDef class="text-center">
+                <i class="fas fa-sort-amount-down" (click)="sortTableData('4', this)"></i>
+                <i class="fas fa-sort-amount-up" (click)="sortTableData('4', this)"></i> Status
+                <i class="fas fa-filter" (click)="showSearchBox('statusSearchBox')"></i>
+                <div class="d-flex justify-content-end">
+                    <form role="search" id="statusSearchBox" method="get" class="table-search-form">
+                        <mat-form-field class="example-form-field">
+                            <input matInput type="text" (keyup)="applyFilter($event.target.value)"
+                                placeholder="Search By Status">
+                            <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                                (click)="value=''">
+                                <mat-icon>close</mat-icon>
+                            </button>
+                        </mat-form-field>
+                    </form>
+                </div>
+            </th>
+            <td mat-cell *matCellDef="let row" layout-align="center center" class="text-center">
+                <mat-chip-list>
+                    <mat-chip color="green" *ngIf="row.status == 1" selected>{{getStatus(row.status)}}</mat-chip>
+                    <mat-chip color="danger" *ngIf="row.status == 2" selected>{{getStatus(row.status)}}</mat-chip>
+                </mat-chip-list>
+            </td>
+        </ng-container>
+        <ng-container matColumnDef="Action">
+            <th mat-header-cell *matHeaderCellDef class="text-center"> Action </th>
+            <td mat-cell *matCellDef="let row" [style.color]="" class="text-center">
+                <button mat-button mat-stroked-button color="warn" class="mat-btn-sm"
+                    [matMenuTriggerFor]="beforeMenu">Action
+                    <i class="material-icons">
+                        navigate_next
+                    </i>
+                </button>
+                <mat-menu #beforeMenu="matMenu" xPosition="before">
+                    <button class="mat-menu-item-list" routerLink="/purchase/addPurchase/{{row.id}}"
+                        mat-menu-item>Edit</button>
+                    <button class="mat-menu-item-list" mat-menu-item
+                        routerLink="/purchase/purchaseDetails/{{row.id}}">Details</button>
+                    <button class="mat-menu-item-list" mat-menu-item (click)="onDelete(row.id)">Delete</button>
+                </mat-menu>
+            </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+        </tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[25, 50, 100]" showFirstLastButtons></mat-paginator>
+</div>

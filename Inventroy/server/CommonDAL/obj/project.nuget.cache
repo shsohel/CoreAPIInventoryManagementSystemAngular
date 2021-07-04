@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/20MRfSMaqGEk+1CHQu+3230KnanUpBjNtIFyZ/DRDy+3kXEm7Xx5d6czDMHakEfa2JsWbVPlVN+jCDSP+uciw==",
+  "dgSpecHash": "a2mh49WJkHSL4/HVezar7fPUNYRQrP+LXThFRHvhwFlbTW1PQ+URDhc3yCKf6dCzdjs+cmhsH3DdbAwDka1tqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
+  "projectFilePath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.0\\microsoft.aspnetcore.authentication.2.1.0.nupkg.sha512",
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.0\\microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",

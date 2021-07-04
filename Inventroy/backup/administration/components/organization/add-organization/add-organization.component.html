@@ -1,0 +1,266 @@
+<!-- <app-alert [message]="response.message" *ngFor="let r of reset" [statusCode]="response.statusCode"></app-alert> -->
+<!-- <div class="card mt-1" [class.mat-elevation-z2]="!isActive"> -->
+<mat-card class="mat-medium-font">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Organization Information</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Organization Information</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Organization Information</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addOrganizationForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-form-field class="input-full-width">
+                        <mat-label>Select Organization Type</mat-label>
+                        <select matNativeControl id="organizationTypeId" formControlName="organizationTypeId">
+                            <option value="" disabled selected></option>
+                            <option *ngFor="let item of keyOfOrganizatioType" [value]="item">
+                                {{lstOrganizationEnum[item]}}
+                            </option>
+                        </select>
+                        <mat-error *ngIf="addOrganizationForm.get('organizationTypeId').hasError('required')">
+                            Organization Type is<strong> required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Organization Name" formControlName="name">
+                <mat-error *ngIf="addOrganizationForm.get('name').hasError('required')">
+                    Organization name is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Founder Name" formControlName="founderName">
+                <mat-error *ngIf="addOrganizationForm.get('founderName').hasError('required')">
+                    Founder name is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput class="input-full-width" [matDatepicker]="dp" placeholder="Established On"
+                    formControlName="establishedOn">
+                <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+                <mat-error *ngIf="addOrganizationForm.get('establishedOn').hasError('required')">
+                    Established Date is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <span matPrefix>+02 &nbsp;</span>
+                <input type="tel" matInput placeholder="Telephone number" formControlName="telephoneNo">
+                <mat-icon matSuffix>mode_edit</mat-icon>
+                <mat-error *ngIf="addOrganizationForm.get('telephoneNo').hasError('required')">
+                    Telephone number is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <span matPrefix>+88 &nbsp;</span>
+                <input type="tel" matInput placeholder="Mobile number" formControlName="mobileNo">
+                <mat-icon matSuffix>mode_edit</mat-icon>
+                <mat-error *ngIf="addOrganizationForm.get('mobileNo').hasError('required')">
+                    Mobile number is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Email" formControlName="email">
+                <mat-error *ngIf="addOrganizationForm.get('email').hasError('required')">
+                    Email Address is <strong>required</strong>
+                </mat-error>
+                <mat-error *ngIf="addOrganizationForm.get('email').hasError('email')">
+                    Please enter a valid <strong>email</strong> address
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Web Address" formControlName="webAddress">
+                <mat-error *ngIf="addOrganizationForm.get('webAddress').hasError('required')">
+                    Web Address is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Registration Number" formControlName="registrationNo">
+                <mat-error *ngIf="addOrganizationForm.get('registrationNo').hasError('required')">
+                    Registration Number is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput class="input-full-width" [matDatepicker]="dp1" placeholder="Registration Date"
+                    formControlName="registeredDate">
+                <mat-datepicker-toggle matSuffix [for]="dp1"></mat-datepicker-toggle>
+                <mat-datepicker #dp1></mat-datepicker>
+                <mat-error *ngIf="addOrganizationForm.get('registeredDate').hasError('required')">
+                    Established Date is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <div class="row group-relative-position d-flex justify-content-between">
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <mat-label>Select Country</mat-label>
+                        <select matNativeControl id="addressCountry" formControlName="addressCountry">
+                            <option value="" disabled selected></option>
+                            <option *ngFor="let item of lstcommon?.lstCountries" [value]="item.id">
+                                {{item.countryName}}
+                            </option>
+                        </select>
+                        <mat-error *ngIf="addOrganizationForm.get('addressCountry').hasError('required')">
+                            Country is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <select matNativeControl id="addressDistrict" formControlName="addressDistrict"
+                            (change)="onDistrictChange()">
+                            <option value="" disabled selected>Select District</option>
+                            <option *ngFor="let item of lstcommon?.lstDistricts" [value]="item.id">
+                                {{item.districtName}}
+                            </option>
+                        </select>
+                        <mat-error *ngIf="addOrganizationForm.get('addressDistrict').hasError('required')">
+                            District is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <select matNativeControl id="addressUpazila" formControlName="addressUpazila"
+                            (change)="onDistrictChange()">
+                            <option value="" disabled selected>Select Upazila</option>
+                            <option *ngFor="let item of lstUpazilas" [value]="item.id">
+                                {{item.upazilaName}}
+                            </option>
+                        </select>
+                        <mat-error *ngIf="addOrganizationForm.get('addressUpazila').hasError('required')">
+                            Upazila is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <mat-form-field class="input-full-width">
+                <input matInput formControlName="addressVillageHouse" placeholder="Village/House">
+                <mat-error *ngIf="addOrganizationForm.get('addressVillageHouse').hasError('required')">
+                    Village/House is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <div class="row group-relative-position d-flex justify-content-between">
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <input matInput formControlName="addressRoadBlockSector" placeholder="Road/Block/Sector">
+                        <mat-error *ngIf="addOrganizationForm.get('addressRoadBlockSector').hasError('required')">
+                            Road/Block/Sector is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <select matNativeControl id="addressPostOffice" formControlName="addressPostOffice"
+                            (change)="onPostOfficeChange($event)">
+                            <option value="" disabled selected>Select Post Office</option>
+                            <option *ngFor="let item of lstcommon?.lstPostOffices" [value]="item.id">
+                                {{item.postOfficeName}}
+                            </option>
+                        </select>
+                        <mat-error *ngIf="addOrganizationForm.get('addressPostOffice').hasError('required')">
+                            Post Office is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field class="input-full-width">
+                        <input matInput formControlName="addressPostCode" readonly placeholder="Post Code">
+                        <mat-error *ngIf="addOrganizationForm.get('addressPostCode').hasError('required')">
+                            Post Code is <strong>required</strong>
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <input (change)="onLogoImageChange($event, 'logoMessage', 'uploadedPicture')" type="file" id="logoImage"
+                hidden />
+            <input type="hidden" name="fileHidden" formControlName="logoImage" />
+            <input (change)="onNameCardImageFileChange($event,'nameCardMessage', 'uploadedNameCard')" type="file"
+                id="nameCardImage" hidden />
+            <input type="hidden" name="fileHidden" formControlName="nameCardImage" />
+            <div class="row d-flex justify-content-center" *ngIf="oragnization.logoImage != undefined">
+                <div class="col-sm-3">
+                    <mat-card class="picture-mat-card">
+                        <img id="uploadede"
+                            src="{{appHost.hostName}}images/organizationImages/{{oragnization.logoImage}}"
+                            class="card-img-top">
+                    </mat-card>
+                    <i (click)="onRemove('logoImage')" class="material-icons btn-top-right-corner btn-remove">
+                        remove_circle
+                    </i>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" *ngIf="oragnization.logoImage == undefined">
+                <div class="col-md-4">
+                    <div class="card upload-file-card input-full-width" (click)="onCardClick('logoImage')">
+                        <mat-card class="picture-mat-card">
+                            <img id="uploadedPicture" [src]="document.logoImage" class="card-img-top">
+                        </mat-card>
+                        <div class="d-flex justify-content-center">
+                            <h2 id="logoMessage" class="text-center file-upload-message">
+                                <i id="photoIcon" class="material-icons">
+                                    add_a_photo
+                                </i><br />Upload Logo
+                            </h2>
+                        </div>
+                    </div>
+                    <mat-error
+                        *ngIf="addOrganizationForm.get('logoImage').hasError('required') && addOrganizationForm.get('logoImage').touched">
+                        Logo image is <strong>required</strong>
+                    </mat-error>
+                </div>
+                <mat-error>
+                    [File Fromat *.jpg/*.png, Dimension Width(840-1260)px and Height(1224-1836)px, File
+                    Size(75-150)kb]
+                </mat-error>
+            </div>
+            <div class="row mt-4 mb-4" *ngIf="oragnization.nameCardImage == undefined">
+                <div class="col-md-12">
+                    <div class="card upload-file-card input-full-width" (click)="onCardClick('nameCardImage')">
+                        <mat-card class="picture-mat-card">
+                            <img id="uploadedNameCard" [src]="document.nameCardImage" class="card-img-top">
+                        </mat-card>
+                        <div class="d-flex justify-content-center">
+                            <h2 id="nameCardMessage" class="text-center file-upload-message">
+                                <i id="photoIcon" class="material-icons">
+                                    add_a_photo
+                                </i><br />Upload Name Card
+                            </h2>
+                        </div>
+                    </div>
+                    <mat-error
+                        *ngIf="addOrganizationForm.get('nameCardImage').hasError('required') && addOrganizationForm.get('nameCardImage').touched">
+                        Name Card image is <strong>required</strong>
+                    </mat-error>
+                </div>
+            </div>
+            <div class="row" *ngIf="oragnization.nameCardImage != undefined">
+                <div class="col-sm-12 mt-2 mb-2">
+                    <mat-card class="picture-mat-card">
+                        <img id="uplocture"
+                            src="{{appHost.hostName}}images/organizationImages/{{oragnization.nameCardImage}}"
+                            class="card-img-top">
+                    </mat-card>
+                    <i (click)="onRemove('nameCardImage')" class="material-icons btn-top-right-corner btn-remove">
+                        remove_circle
+                    </i>
+                </div>
+            </div>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/administration/organizationList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>
+<!-- </div> -->

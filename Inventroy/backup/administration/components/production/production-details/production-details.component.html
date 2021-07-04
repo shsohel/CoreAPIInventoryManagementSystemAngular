@@ -1,0 +1,112 @@
+<div class="card mt-1" >
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Product</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Product</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Product Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Production ID</th>
+                                        <td>{{productionDetails?.productionNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Name</th>
+                                        <td>{{productionDetails?.name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Batch</th>
+                                        <td>{{productionDetails?.batch}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Batch Code</th>
+                                        <td>{{productionDetails?.batchCode}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Raw Product Cost</th>
+                                        <td>{{productionDetails?.rawProductCostTotal}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Other Coast</th>
+                                        <td>{{productionDetails?.otherCostTotal}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Stared Date</th>
+                                        <td>{{productionDetails?.startDateString}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Exprired Date</th>
+                                        <td>{{productionDetails?.expiredDateString}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Organization</th>
+                                        <td>{{getOrganization(productionDetails?.organizationId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Shop</th>
+                                        <td>{{getShop(productionDetails?.shopId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(productionDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{productionDetails?.createdByName}} at
+                                    {{productionDetails?.createdDateString}}
+                                </p>
+                                <p *ngIf="productionDetails?.modifiedByName != null"> || Modified By
+                                    {{productionDetails?.modifiedByName}} at {{productionDetails?.modifiedDateString}}
+                                </p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

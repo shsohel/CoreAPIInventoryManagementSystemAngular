@@ -1,0 +1,83 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Expense</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Fixed Expense</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Fixed Expense</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Fixed Expense</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addFixedExpenseForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field>
+                <input matInput class="input-full-width" [matDatepicker]="dp" placeholder="Fixed Expense Date"
+                    formControlName="fixedExpenseDate">
+                <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+                <mat-error *ngIf="addFixedExpenseForm.get('fixedExpenseDate').hasError('required')">
+                    Fixed Expense Date is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <!-- <mat-form-field class="input-full-width">
+                <mat-select placeholder="----Select Service Provider----" formControlName="expenseHeadId">
+                    <mat-option disabled>Expense Head</mat-option>
+                    <mat-option *ngFor="let type of expenseType" [value]="type">
+                        {{lstServiceProvider[type]}}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="addFixedExpenseForm.get('expenseHeadId').hasError('required')">Expense head is
+                    <strong>required</strong></mat-error>
+            </mat-form-field> -->
+            <mat-form-field class="input-full-width">
+                <select matNativeControl id="serviceProviderId" formControlName="serviceProviderId">
+                    <option value="" disabled selected>Select Expense Head</option>
+                    <option *ngFor="let type of serviceProverder" [value]="type">
+                        {{lstServiceProvider[type]}}
+                    </option>
+                </select>
+                <mat-error *ngIf="addFixedExpenseForm.get('serviceProviderId').hasError('required')">
+                    Service Provider is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <select matNativeControl id="expenseHeadId" formControlName="expenseHeadId">
+                    <option value="" disabled selected>Select Expense Head</option>
+                    <option *ngFor="let type of expenseType" [value]="type">
+                        {{lstExpenseType[type]}}
+                    </option>
+                </select>
+                <mat-error *ngIf="addFixedExpenseForm.get('expenseHeadId').hasError('required')">
+                    Expense Head is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Voucher Number" formControlName="voucherId">
+                <mat-error *ngIf="addFixedExpenseForm.get('voucherId').hasError('required')">
+                    Voucher number is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Amount" formControlName="amount">
+                <mat-error *ngIf="addFixedExpenseForm.get('amount').hasError('required')">
+                    Amount is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea matInput placeholder="Note" formControlName="note"></textarea>
+                <mat-error *ngIf="addFixedExpenseForm.get('note').hasError('required')">
+                    Note is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/expense/fixedExpenseList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

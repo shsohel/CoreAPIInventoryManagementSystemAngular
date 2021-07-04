@@ -32,3 +32,12 @@ C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csproj.CoreCompileInputs.cache
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.deps.json
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csprojAssemblyReference.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfoInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.AssemblyInfo.cs
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.csproj.CoreCompileInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonDAL\obj\Debug\netcoreapp2.1\CommonDAL.pdb

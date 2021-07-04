@@ -1,0 +1,96 @@
+<div class="card mt-1" [class.mat-elevation-z2]="!isActive">
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Finance</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">VAT</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">VAT</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">VAT Details</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5>Unit Details</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <div class="col d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="grid">
+                            <span class="title-center">Details</span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+            <div class="row">
+                <div class="details-body mt-5 mb-5">
+                    <div class="row details-body-relative">
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">VAT ID</th>
+                                        <td>{{vatDetails?.vatNo}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Organization </th>
+                                        <td>{{getOrgName(vatDetails?.organizationId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Shop </th>
+                                        <td>{{getShopName(vatDetails?.shopId)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vat</th>
+                                        <td>{{vatDetails?.name}}</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="val">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Is It Percentage?</th>
+                                        <td>{{getYesNo(vatDetails?.isPercent)}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Description</th>
+                                        <td>{{vatDetails?.description}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Status</th>
+                                        <td>{{getStatus(vatDetails?.status)}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <mat-toolbar color="primary">
+                        <mat-toolbar-row class="mat-toolbar-footer grid">
+                            <span class="title-center">
+                                <p>Created by {{vatDetails?.createdByName}} at
+                                    {{vatDetails?.createdDateString}}
+                                </p>
+                                <p *ngIf="vatDetails?.modifiedByName != null"> || Modified By
+                                    {{vatDetails?.modifiedByName}} at {{vatDetails?.modifiedDateString}}</p>
+                            </span>
+                        </mat-toolbar-row>
+                    </mat-toolbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

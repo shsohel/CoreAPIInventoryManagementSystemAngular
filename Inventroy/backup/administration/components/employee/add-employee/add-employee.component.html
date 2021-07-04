@@ -1,0 +1,1101 @@
+<!-- <app-alert [message]="response.message" *ngFor="let r of reset" [statusCode]="response.statusCode"></app-alert> -->
+<div class="card mt-1" >
+    <!-- <div class="card mt-1" [class.mat-elevation-z2]="!isActive"></div> -->
+    <mat-card class="mat-medium-font">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Admin</a></li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item">Employees</li>
+                <i class="fas fa-square-full list_style_square"></i>
+                <li class="breadcrumb-item active" aria-current="page">Add New Employee</li>
+            </ol>
+        </nav>
+        <div class="">
+            <h5 class="font-material">Add New Employee</h5>
+        </div>
+    </mat-card>
+    <div class="card-body card-white-background">
+        <mat-horizontal-stepper [linear]="false" #stepper>
+            <mat-step [stepControl]="employeeFirstForm">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="employeeFirstForm" class="example-form">
+                        <ng-template matStepLabel>Employee Info</ng-template>
+                        <mat-toolbar class="d-flex-inline  mb-5" color="primary">
+                            <mat-toolbar-row class="grid">
+                                <span class="title-center">Employee Information</span>
+                            </mat-toolbar-row>
+                        </mat-toolbar>
+                        <input matInput hidden formControlName="id">
+                        <div class="row mt-5">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width ">
+                                    <input matInput placeholder="First Name" formControlName="firstName">
+                                    <mat-error *ngIf="employeeFirstForm.get('firstName').hasError('required')">
+                                        First Name is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <input matInput placeholder="Last Name" formControlName="lastName">
+                                    <mat-error *ngIf="employeeFirstForm.get('lastName').hasError('required')">
+                                        Last Name is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Select Organization</mat-label>
+                                    <select matNativeControl id="organizationId" formControlName="organizationId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstOrganizations" [value]="item.id">
+                            {{item.name}}
+                          </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeFirstForm.get('organizationId').hasError('required')">
+                                        Organization Name is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Select Shop</mat-label>
+                                    <select matNativeControl id="shopId" formControlName="shopId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstShops" [value]="item.id">
+                            {{item.name}}
+                          </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeFirstForm.get('shopId').hasError('required')">
+                                        Shop Name is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label> is Owner?</mat-label>
+                                    <select matNativeControl id="isOwner" formControlName="isOwner">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keyOfYesNo" [value]="item">
+                                            {{yesOrNo[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeFirstForm.get('isOwner').hasError('required')">
+                                        isOwner is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-4">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Select Salary Type</mat-label>
+                                    <select matNativeControl id="salaryTypeId" formControlName="salaryTypeId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keysOfEmployeeSalaryType" [value]="item">
+                                            {{employeeSalaryType[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeFirstForm.get('salaryTypeId').hasError('required')">
+                                        Salary Type is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-4">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Select Designation</mat-label>
+                                    <select matNativeControl id="designation" formControlName="designation">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstDesignations" [value]="item.id">
+                                            {{item.designationName}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeFirstForm.get('designation').hasError('required')">
+                                        Designation is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <span matPrefix>+88 &nbsp;</span>
+                                    <input type="tel" matInput placeholder="Mobile number" formControlName="mobile">
+                                    <mat-icon matSuffix>mode_edit</mat-icon>
+                                    <mat-error *ngIf="employeeFirstForm.get('mobile').hasError('required')">
+                                        Mobile number is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <span matPrefix>+88 &nbsp;</span>
+                                    <input type="tel" matInput placeholder="Residance Mobile number"
+                                        formControlName="residanceMobileNo">
+                                    <mat-icon matSuffix>mode_edit</mat-icon>
+                                    <mat-error *ngIf="employeeFirstForm.get('residanceMobileNo').hasError('required')">
+                                        Residance Mobile number is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <span matPrefix>+88 &nbsp;</span>
+                                    <input type="tel" matInput placeholder="Phone number" formControlName="phone">
+                                    <mat-icon matSuffix>mode_edit</mat-icon>
+                                    <mat-error *ngIf="employeeFirstForm.get('phone').hasError('required')">
+                                        Phone number is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <input matInput placeholder="Email" formControlName="email">
+                                    <mat-error *ngIf="employeeFirstForm.get('email').hasError('required')">
+                                        Email Address is <strong>required</strong>
+                                    </mat-error>
+                                    <mat-error *ngIf="employeeFirstForm.get('email').hasError('email')">
+                                        Please enter a valid <strong>email</strong> address
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field>
+                                    <input matInput class="input-full-width" [matDatepicker]="dp1"
+                                        placeholder="Joining Date" formControlName="joiningDate">
+                                    <mat-datepicker-toggle matSuffix [for]="dp1"></mat-datepicker-toggle>
+                                    <mat-datepicker #dp1></mat-datepicker>
+                                    <mat-error *ngIf="employeeFirstForm.get('joiningDate').hasError('required')">
+                                        Joining Date is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field>
+                                    <input matInput class="input-full-width" [matDatepicker]="dp2"
+                                        placeholder="Termination Date" formControlName="terminationDate">
+                                    <mat-datepicker-toggle matSuffix [for]="dp2"></mat-datepicker-toggle>
+                                    <mat-datepicker #dp2></mat-datepicker>
+                                    <mat-error *ngIf="employeeFirstForm.get('terminationDate').hasError('required')">
+                                        Termination Date is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext class="btn-custom mt-2 float-right"
+                                (click)="onEmployeeSave()" color="primary">Next</button>
+                            <button type="button" routerLink="/administration/employees" mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+            <mat-step [stepControl]="employeeBasicInfoForm">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="employeeBasicInfoForm" class="example-form">
+                        <ng-template matStepLabel>Basic Info</ng-template>
+                        <mat-toolbar class="d-flex-inline  mb-5" color="primary">
+                            <mat-toolbar-row class="grid">
+                                <span class="title-center">Employee Basic Information</span>
+                            </mat-toolbar-row>
+                        </mat-toolbar>
+                        <mat-form-field class="input-full-width mt-5">
+                            <input matInput placeholder="Father's Name" formControlName="fathersName">
+                            <mat-error *ngIf="employeeBasicInfoForm.get('fathersName').hasError('required')">
+                                Father's Name is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="input-full-width">
+                            <mat-label>Father's Profession</mat-label>
+                            <select matNativeControl id="fathersProfession" formControlName="fathersProfession">
+                                <option value="" disabled selected></option>
+                                <option *ngFor="let item of commonDataList.lstProfessions" [value]="item.id">
+                                    {{item.professionName}}
+                                </option>
+                            </select>
+                            <mat-error *ngIf="employeeBasicInfoForm.get('fathersProfession').hasError('required')">
+                                Fathers Profession is<strong> required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="input-full-width">
+                            <input matInput placeholder="Mother's Name" formControlName="mothersName">
+                            <mat-error *ngIf="employeeBasicInfoForm.get('mothersName').hasError('required')">
+                                Mother's Name is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="input-full-width">
+                            <mat-label>Mother's Profession</mat-label>
+                            <select matNativeControl id="mothersProfession" formControlName="mothersProfession">
+                                <option value="" disabled selected></option>
+                                <option *ngFor="let item of commonDataList.lstProfessions" [value]="item.id">
+                                    {{item.professionName}}
+                                </option>
+                            </select>
+                            <mat-error *ngIf="employeeBasicInfoForm.get('mothersProfession').hasError('required')">
+                                Mothers Profession is<strong> required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field>
+                            <input matInput class="input-full-width" [matDatepicker]="dp" placeholder="Date Of Birth"
+                                formControlName="dateOfBirth">
+                            <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                            <mat-datepicker #dp></mat-datepicker>
+                            <mat-error *ngIf="employeeBasicInfoForm.get('dateOfBirth').hasError('required')">
+                                Date Of Birth is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Religion</mat-label>
+                                    <select matNativeControl id="religionId" formControlName="religionId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keysOfReligion" [value]="item">
+                                            {{religion[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeBasicInfoForm.get('religionId').hasError('required')">
+                                        Religion is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Nationality</mat-label>
+                                    <select matNativeControl id="nationalityId" formControlName="nationalityId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstNationalities" [value]="item.id">
+                                            {{item.nationalityName}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeBasicInfoForm.get('nationalityId').hasError('required')">
+                                        Nationality is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>CitizenShip Status</mat-label>
+                                    <select matNativeControl id="citizenShipStatusId"
+                                        formControlName="citizenShipStatusId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keysOfcitizenshipStatus" [value]="item">
+                                            {{citizenshipStatus[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeBasicInfoForm.get('citizenShipStatusId').hasError('required')">
+                                        CitizenShip Status is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Gender</mat-label>
+                                    <select matNativeControl id="genderId" formControlName="genderId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keysOfGender" [value]="item">
+                                            {{gender[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeBasicInfoForm.get('genderId').hasError('required')">
+                                        Gender is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Country Of Birth</mat-label>
+                                    <select matNativeControl id="countryOfBirthId" formControlName="countryOfBirthId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstCountries" [value]="item.id">
+                                            {{item.countryName}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeBasicInfoForm.get('countryOfBirthId').hasError('required')">
+                                        Country Of Birth is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Distict Of Birth</mat-label>
+                                    <select matNativeControl id="distictOfBirthId" formControlName="distictOfBirthId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of commonDataList.lstDistricts" [value]="item.id">
+                                            {{item.districtName}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeBasicInfoForm.get('distictOfBirthId').hasError('required')">
+                                        Distict Of Birth is<strong> required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <input matInput placeholder="Height" formControlName="hight">
+                                    <mat-error *ngIf="employeeBasicInfoForm.get('hight').hasError('required')">
+                                        Height is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-form-field class="input-full-width">
+                                    <mat-label>Blood Group</mat-label>
+                                    <select matNativeControl id="bloodGroupId" formControlName="bloodGroupId">
+                                        <option value="" disabled selected></option>
+                                        <option *ngFor="let item of keysOfBloodGroup" [value]="item">
+                                            {{bloodGroup[item]}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeBasicInfoForm.get('bloodGroupId').hasError('required')">
+                                        Blood Group is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <mat-form-field class="input-full-width">
+                            <input matInput placeholder="Birth Reg. No." formControlName="birthRegNo">
+                            <mat-error *ngIf="employeeBasicInfoForm.get('birthRegNo').hasError('required')">
+                                Birth Reg. No. is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="input-full-width">
+                            <input matInput placeholder="National Id No." formControlName="nationalIdno">
+                            <mat-error *ngIf="employeeBasicInfoForm.get('nationalIdno').hasError('required')">
+                                National Id No. is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="input-full-width">
+                            <input matInput placeholder="Passport No." formControlName="passportNo">
+                            <mat-error *ngIf="employeeBasicInfoForm.get('passportNo').hasError('required')">
+                                Passport No. is <strong>required</strong>
+                            </mat-error>
+                        </mat-form-field>
+                        <div>
+                            <button mat-raised-button matStepperNext class="btn-custom mt-2 float-right"
+                                (click)="onBasicInfoSave()" color="primary">Next</button>
+                            <button type="button" matStepperPrevious mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="green">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+            <mat-step [stepControl]="employeeAddressForm">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="employeeAddressForm" class="example-form">
+                        <ng-template matStepLabel>Address</ng-template>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <mat-toolbar class="d-flex-inline  mb-5" color="primary">
+                                    <mat-toolbar-row class="grid">
+                                        <span class="title-center">Employee Present Address</span>
+                                    </mat-toolbar-row>
+                                </mat-toolbar>
+                                <mat-form-field class="input-full-width mt-5">
+                                    <select matNativeControl id="presentDistrict" formControlName="presentDistrict"
+                                        (change)="onPresentDistrictChange($event.target.value)">
+                                        <option value="" disabled selected>Select District</option>
+                                        <option *ngFor="let item of commonDataList?.lstDistricts" [value]="item.id">
+                                            {{item.districtName}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeAddressForm.get('presentDistrict').hasError('required')">
+                                        District is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <select matNativeControl id="presentUpazila" formControlName="presentUpazila">
+                                        <option value="" disabled selected>Select Upazila</option>
+                                        <option *ngFor="let item of lstOfPresentUpazilas" [value]="item.id">
+                                            {{item.upazilaName}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeAddressForm.get('presentUpazila').hasError('required')">
+                                        Upazila is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <select matNativeControl id="presentPostOffice" formControlName="presentPostOffice"
+                                        (change)="onPresentPostOfficeChange($event)">
+                                        <option value="" disabled selected>Select Post Office</option>
+                                        <option *ngFor="let item of commonDataList?.lstPostOffices" [value]="item.id">
+                                            {{item.postOfficeName}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('presentPostOffice').hasError('required')">
+                                        Post Office is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="presentPostCode" readonly placeholder="Post Code">
+                                    <mat-error *ngIf="employeeAddressForm.get('presentPostCode').hasError('required')">
+                                        Post Code is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="presentVillageHouse" placeholder="Village/House">
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('presentVillageHouse').hasError('required')">
+                                        Village/House is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="presentRoadBlockSector"
+                                        placeholder="Road/Block/Sector">
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('presentRoadBlockSector').hasError('required')">
+                                        Road/Block/Sector is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="val">
+
+                            </div>
+                            <div class="col-sm-6">
+                                <mat-toolbar class="d-flex-inline  mb-5" color="primary">
+                                    <mat-toolbar-row class="grid">
+                                        <span class="title-center">Employee Permanent Address</span>
+                                    </mat-toolbar-row>
+                                </mat-toolbar>
+                                <div class="d-flex justify-content-center">
+                                    <mat-checkbox class="example-margin" (change)="onCheckClick($event)">Same As Present
+                                    </mat-checkbox>
+                                </div>
+                                <mat-form-field class="input-full-width mt-3">
+                                    <select matNativeControl id="permanentDistrict" formControlName="permanentDistrict"
+                                        (change)="onPermanentDistrictChange($event.target.value)">
+                                        <option value="" disabled selected>Select District</option>
+                                        <option *ngFor="let item of commonDataList?.lstDistricts" [value]="item.id">
+                                            {{item.districtName}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('permanentDistrict').hasError('required')">
+                                        District is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <select matNativeControl id="permanentUpazila" formControlName="permanentUpazila">
+                                        <option value="" disabled selected>Select Upazila</option>
+                                        <option *ngFor="let item of lstOfPermanentUpazilas" [value]="item.id">
+                                            {{item.upazilaName}}
+                                        </option>
+                                    </select>
+                                    <mat-error *ngIf="employeeAddressForm.get('permanentUpazila').hasError('required')">
+                                        Upazila is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <select matNativeControl id="permanentPostOffice"
+                                        formControlName="permanentPostOffice"
+                                        (change)="onPermanentPostOfficeChange($event)">
+                                        <option value="" disabled selected>Select Post Office</option>
+                                        <option *ngFor="let item of commonDataList?.lstPostOffices" [value]="item.id">
+                                            {{item.postOfficeName}}
+                                        </option>
+                                    </select>
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('permanentPostOffice').hasError('required')">
+                                        Post Office is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="permanentPostCode" readonly
+                                        placeholder="Post Code">
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('permanentPostCode').hasError('required')">
+                                        Post Code is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="permanentVillageHouse" placeholder="Village/House">
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('permanentVillageHouse').hasError('required')">
+                                        Village/House is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field class="input-full-width">
+                                    <input matInput formControlName="permanentRoadBlockSector"
+                                        placeholder="Road/Block/Sector">
+                                    <mat-error
+                                        *ngIf="employeeAddressForm.get('permanentRoadBlockSector').hasError('required')">
+                                        Road/Block/Sector is <strong>required</strong>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext class="btn-custom mt-2 float-right"
+                                (click)="onAddressSave()" color="primary">Next</button>
+                            <button type="button" matStepperPrevious mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="green">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+
+            <mat-step [stepControl]="employeeQualAndRefDetailsForm" [completed]="true">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="employeeQualAndRefDetailsForm" class="example-form">
+                        <ng-template matStepLabel>Educational Qualification</ng-template>
+                        <div class="row">
+                            <mat-toolbar class="d-flex-inline  mb-5">
+                                <mat-toolbar-row class="grid">
+                                    <span class="title-center">Educational Qualification</span>
+                                </mat-toolbar-row>
+                            </mat-toolbar>
+                            <div class="col-sm-12" formArrayName='educationQualification'
+                                *ngFor="let qual of employeeQualAndRefDetailsForm.get('educationQualification').controls; let i = index;">
+                                <div [formGroupName]='i'>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <mat-label>Select Board/University</mat-label>
+                                                <select matNativeControl id="bordorUniversity"
+                                                    formControlName="boardorUniversity">
+                                                    <option value="" disabled selected></option>
+                                                    <option *ngFor="let item of keyofBoardUniversity" [value]="item">
+                                                        {{boardorUniversity[item]}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('boardorUniversity').hasError('required')">
+                                                    Board or University Name is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <mat-label>Select Subject/Group</mat-label>
+                                                <select matNativeControl id="subjectId" formControlName="subjectId">
+                                                    <option value="" disabled selected></option>
+                                                    <option *ngFor="let item of keysofSubjectOrGroup" [value]="item">
+                                                        {{subjectOrGroup[item]}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('subjectId').hasError('required')">
+                                                    Subject/Group Name is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="classTypeId" formControlName="classTypeId">
+                                                    <option value="" disabled selected>Class</option>
+                                                    <option *ngFor="let item of keyofClass" [value]="item">
+                                                        {{classType[item]}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('classTypeId').hasError('required')">
+                                                    Class/Exam Name is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <!-- <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="passingYear"
+                                                    placeholder="Passing Year">
+                                                <mat-error *ngIf="qual.get('passingYear').hasError('required')">
+                                                    Passing Year is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field> -->
+                                            <mat-form-field>
+                                                <input matInput class="input-full-width" [matDatepicker]="dp1" placeholder="Passing Date"
+                                                    formControlName="passingYear">
+                                                <mat-datepicker-toggle matSuffix [for]="dp1"></mat-datepicker-toggle>
+                                                <mat-datepicker #dp1></mat-datepicker>
+                                                <mat-error *ngIf="qual.get('passingYear').hasError('required')">
+                                                    Passing Year is is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="rollNo" placeholder="Roll No">
+                                                <mat-error *ngIf="qual.get('rollNo').hasError('required')">
+                                                    Roll No is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="registrationNo"
+                                                    placeholder="Registration No">
+                                                <mat-error *ngIf="qual.get('registrationNo').hasError('required')">
+                                                    Registration No is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <mat-form-field class="input-full-width">
+                                        <select matNativeControl id="result" formControlName="result">
+                                            <option value="" disabled selected>Select Result</option>
+                                            <option *ngFor="let item of keysOfResult" [value]="item">
+                                                {{result[item]}}
+                                            </option>
+                                        </select>
+                                        <mat-error *ngIf="qual.get('result').hasError('required')">
+                                            Result is <strong>required</strong>
+                                        </mat-error>
+                                    </mat-form-field>
+                                    <mat-form-field class="input-full-width">
+                                        <input matInput formControlName="resultCgpa" placeholder="Result of CGPA">
+                                        <mat-error *ngIf="qual.get('resultCgpa').hasError('required')">
+                                            CGPA Year is <strong>required</strong>
+                                        </mat-error>
+                                    </mat-form-field>
+                                    <div class="d-flex justify-content-center"
+                                        *ngIf="employeeQualAndRefDetailsForm.get('educationQualification').length > 1">
+                                        <label class="hover-hand" for="removeEduQual">Remove</label>
+                                        <button id="removeEduQual" class="btn-pull-right" type="button"
+                                            (click)="onRemoveEduQulification(i)" mat-icon-button color="warn"
+                                            aria-label="Example icon-button with a heart icon">
+                                            <mat-icon>remove_circle</mat-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <label class="hover-hand" for="AddSizeButton">Add More Educational
+                                Qualification</label><button id="AddSizeButton" type="button"
+                                (click)="onAddMoreEducation()" mat-icon-button color="primary"
+                                aria-label="Example icon-button with a heart icon">
+                                <mat-icon>add_box</mat-icon>
+                            </button>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext (click)="onEducationQualificationSave()"
+                                class="btn-custom mt-2 float-right" color="primary">Next</button>
+                            <button type="button" matStepperPrevious mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="green">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+
+            <mat-step [stepControl]="employeeReferenceDetailsForm" [completed]="true">
+                <div class="col d-flex justify-content-center">
+                    <form [formGroup]="employeeReferenceDetailsForm" class="example-form">
+                        <ng-template matStepLabel>Reference Person</ng-template>
+                        <div class="row">
+                            <mat-toolbar class="d-flex-inline  mb-5">
+                                <mat-toolbar-row class="grid">
+                                    <span class="title-center">Employee Reference Person Details</span>
+                                </mat-toolbar-row>
+                            </mat-toolbar>
+                            <div class="col-sm-12" formArrayName='employeeReferences'
+                                *ngFor="let qual of employeeReferenceDetailsForm.get('employeeReferences').controls; let i = index;">
+                                <div [formGroupName]='i'>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="refPersonName"
+                                                    placeholder="Ref Person Name">
+                                                <mat-error *ngIf="qual.get('refPersonName').hasError('required')">
+                                                    Ref Person name is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="mobileNo" placeholder="Mobile No">
+                                                <mat-error *ngIf="qual.get('mobileNo').hasError('required')">
+                                                    Mobile Number is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="email" placeholder="Email">
+                                                <mat-error *ngIf="qual.get('email').hasError('required')">
+                                                    Email is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="reletionShipId"
+                                                    formControlName="reletionShipId">
+                                                    <option value="" disabled selected>Select Relationship</option>
+                                                    <option *ngFor="let item of commonDataList.lstRelationShips"
+                                                        [value]="item.id">
+                                                        {{item.relationShipName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('reletionShipId').hasError('required')">
+                                                    Relationship is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="professionId"
+                                                    formControlName="professionId">
+                                                    <option value="" disabled selected>Select Profession</option>
+                                                    <option *ngFor="let item of commonDataList.lstProfessions"
+                                                        [value]="item.id">
+                                                        {{item.professionName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('professionId').hasError('required')">
+                                                    Profession is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="countryId" formControlName="countryId">
+                                                    <option value="" disabled selected>Select Country</option>
+                                                    <option *ngFor="let item of commonDataList.lstCountries"
+                                                        [value]="item.id">
+                                                        {{item.countryName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('countryId').hasError('required')">
+                                                    Country is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="distictId" formControlName="distictId">
+                                                    <option value="" disabled selected>Select District</option>
+                                                    <option *ngFor="let item of commonDataList.lstDistricts"
+                                                        [value]="item.id">
+                                                        {{item.districtName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('distictId').hasError('required')">
+                                                    District is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="policeStationId"
+                                                    formControlName="policeStationId">
+                                                    <option value="" disabled selected>Select Upazila</option>
+                                                    <option
+                                                        *ngFor="let item of getupazila(employeeReferenceDetailsForm.get('employeeReferences').at(i).get('distictId').value)"
+                                                        [value]="item.id">
+                                                        {{item.upazilaName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('policeStationId').hasError('required')">
+                                                    Upazila is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <select matNativeControl id="postOffice" formControlName="postOffice">
+                                                    <option value="" disabled selected>Select Post Office</option>
+                                                    <option *ngFor="let item of commonDataList.lstPostOffices"
+                                                        [value]="item.id">
+                                                        {{item.postOfficeName}}
+                                                    </option>
+                                                </select>
+                                                <mat-error *ngIf="qual.get('postOffice').hasError('required')">
+                                                    Post Office is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="postCode"  placeholder="Post Code">
+                                                <mat-error *ngIf="qual.get('postCode').hasError('required')">
+                                                    Post Code is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="houseVillage"
+                                                    placeholder="Village/House">
+                                                <mat-error *ngIf="qual.get('houseVillage').hasError('required')">
+                                                    Village/House is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <mat-form-field class="input-full-width">
+                                                <input matInput formControlName="roadBlockSector"
+                                                    placeholder="Road/Block/Sector">
+                                                <mat-error *ngIf="qual.get('roadBlockSector').hasError('required')">
+                                                    Road/Block/Sector is <strong>required</strong>
+                                                </mat-error>
+                                            </mat-form-field>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center"
+                                        *ngIf="employeeReferenceDetailsForm.get('employeeReferences').length > 1">
+                                        <label class="hover-hand" for="removeReference">Remove</label>
+                                        <button id="removeReference" class="btn-pull-right" type="button"
+                                            (click)="onRemoveReference(i)" mat-icon-button color="warn"
+                                            aria-label="Example icon-button with a heart icon">
+                                            <mat-icon>remove_circle</mat-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <label class="hover-hand" for="AddReference">Add More Reference Person</label><button
+                                id="AddReference" type="button" (click)="onAddMoreReference()" mat-icon-button
+                                color="primary" aria-label="Example icon-button with a heart icon">
+                                <mat-icon>add_box</mat-icon>
+                            </button>
+                        </div>
+                        <div>
+                            <button mat-raised-button matStepperNext (click)="onReferecesPersonSave()"
+                                class="btn-custom mt-2 float-right" color="primary">Next</button>
+                            <button type="button" matStepperPrevious mat-raised-button
+                                class="btn-custom mr-2 mt-2 float-right" color="green">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </mat-step>
+
+            <mat-step>
+                <ng-template matStepLabel>Done</ng-template>
+                <div class=" col d-flex justify-content-center">
+                    <div>
+                        <form [formGroup]="" class="example-form">
+                            <div class="row">
+                                <mat-toolbar class="d-flex-inline  mb-5">
+                                    <mat-toolbar-row class="grid">
+                                        <span class="title-center">You are almot done Just Upload Your Document</span>
+                                    </mat-toolbar-row>
+                                </mat-toolbar>
+                                <div class="col-sm-12 mb-5">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-md-9">
+                                                    <input
+                                                        (change)="onProfileImageChange($event, 'profileImage', 'profileImageMessage', 'uploadedProfileImage')"
+                                                        type="file" id="profileImage" hidden />
+                                                    <div *ngIf="profileImage != undefined">
+                                                        <div>
+                                                            <mat-card class="picture-mat-card">
+                                                                <img id="uploadede" [src]="profileImage"
+                                                                    class="card-img-top">
+                                                            </mat-card>
+                                                            <i (click)="onRemove('Photo')"
+                                                                class="material-icons btn-top-right-corner btn-remove">
+                                                                remove_circle
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card upload-file-card input-full-width"
+                                                        (click)="onCardClick('profileImage')"
+                                                        *ngIf="profileImage == undefined">
+                                                        <mat-card class="picture-mat-card">
+                                                            <img id="uploadedProfileImage" [src]="profileImage"
+                                                                class="card-img-top">
+                                                        </mat-card>
+                                                        <div *ngIf="profileImage == undefined"
+                                                            class="d-flex justify-content-center">
+                                                            <h2 id="profileImageMessage"
+                                                                class="text-center file-upload-message">
+                                                                <i id="photoIcon" class="material-icons">
+                                                                    add_a_photo
+                                                                </i><br />Profile Image
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                    <mat-error>
+                                                        Logo image is <strong>required</strong>
+                                                    </mat-error>
+                                                </div>
+                                                <mat-error>
+                                                    [File Fromat *.jpg/*.png, Dimension Width(840-1260)px and
+                                                    Height(1224-1836)px, File
+                                                    Size(75-150)kb]
+                                                </mat-error>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-md-9">
+                                                    <input
+                                                        (change)="onBithCirtificateChange($event, 'bithCirtificate', 'bithCirtificateMessage', 'uploadedBithCirtificate')"
+                                                        type="file" id="bithCirtificate" hidden />
+                                                    <div *ngIf="bithCirtificateImage != undefined">
+                                                        <div>
+                                                            <mat-card class="picture-mat-card">
+                                                                <img id="uploadede" [src]="bithCirtificateImage"
+                                                                    class="card-img-top">
+                                                            </mat-card>
+                                                            <i (click)="onRemove('Birth Certificate')"
+                                                                class="material-icons btn-top-right-corner btn-remove">
+                                                                remove_circle
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card upload-file-card input-full-width"
+                                                        (click)="onCardClick('bithCirtificate')"
+                                                        *ngIf="bithCirtificateImage == undefined">
+                                                        <mat-card class="picture-mat-card">
+                                                            <img id="uploadedBithCirtificate"
+                                                                [src]="bithCirtificateImage" class="card-img-top">
+                                                        </mat-card>
+                                                        <div class="d-flex justify-content-center"
+                                                            *ngIf="bithCirtificateImage == undefined">
+                                                            <h2 id="bithCirtificateMessage"
+                                                                class="text-center file-upload-message">
+                                                                <i id="photoIcon" class="material-icons">
+                                                                    add_a_photo
+                                                                </i><br />Bith Cirtificate
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                    <mat-error>
+                                                        Logo image is <strong>required</strong>
+                                                    </mat-error>
+                                                </div>
+                                                <mat-error>
+                                                    [File Fromat *.jpg/*.png, Dimension Width(840-1260)px and
+                                                    Height(1224-1836)px, File
+                                                    Size(75-150)kb]
+                                                </mat-error>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 mb-5">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-md-9">
+                                                    <input
+                                                        (change)="onIDImageChange($event, 'nIDImage', 'nIDImageMessage', 'uploadednIDImage')"
+                                                        type="file" id="nIDImage" hidden />
+                                                    <div *ngIf="nIDImage != undefined">
+                                                        <div>
+                                                            <mat-card class="picture-mat-card">
+                                                                <img id="uploadede" [src]="nIDImage"
+                                                                    class="card-img-top">
+                                                            </mat-card>
+                                                            <i (click)="onRemove('NID')"
+                                                                class="material-icons btn-top-right-corner btn-remove">
+                                                                remove_circle
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card upload-file-card input-full-width"
+                                                        (click)="onCardClick('nIDImage')" *ngIf="nIDImage == undefined">
+                                                        <mat-card class="picture-mat-card">
+                                                            <img id="uploadednIDImage" [src]="nIDImage"
+                                                                class="card-img-top">
+                                                        </mat-card>
+                                                        <div class="d-flex justify-content-center"
+                                                            *ngIf="nIDImage == undefined">
+                                                            <h2 id="nIDImageMessage"
+                                                                class="text-center file-upload-message">
+                                                                <i id="photoIcon" class="material-icons">
+                                                                    add_a_photo
+                                                                </i><br />NID Image
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                    <mat-error>
+                                                        Logo image is <strong>required</strong>
+                                                    </mat-error>
+                                                </div>
+                                                <mat-error>
+                                                    [File Fromat *.jpg/*.png, Dimension Width(840-1260)px and
+                                                    Height(1224-1836)px, File
+                                                    Size(75-150)kb]
+                                                </mat-error>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-md-9">
+                                                    <input
+                                                        (change)="onPassportImageChange($event, 'passportImage', 'passportImageMessage', 'uploadedPassportImage')"
+                                                        type="file" id="passportImage" hidden />
+                                                    <div *ngIf="passportImage != undefined">
+                                                        <div>
+                                                            <mat-card class="picture-mat-card">
+                                                                <img id="uploadede" [src]="passportImage"
+                                                                    class="card-img-top">
+                                                            </mat-card>
+                                                            <i (click)="onRemove('Passport')"
+                                                                class="material-icons btn-top-right-corner btn-remove">
+                                                                remove_circle
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card upload-file-card input-full-width"
+                                                        (click)="onCardClick('passportImage')"
+                                                        *ngIf="passportImage == undefined">
+                                                        <mat-card class="picture-mat-card">
+                                                            <img id="uploadedPassportImage" [src]="passportImage"
+                                                                class="card-img-top">
+                                                        </mat-card>
+                                                        <div class="d-flex justify-content-center"
+                                                            *ngIf="passportImage == undefined">
+                                                            <h2 id="passportImageMessage"
+                                                                class="text-center file-upload-message">
+                                                                <i id="photoIcon" class="material-icons">
+                                                                    add_a_photo
+                                                                </i><br />Passport Image
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                    <mat-error>
+                                                        Logo image is <strong>required</strong>
+                                                    </mat-error>
+                                                </div>
+                                                <mat-error>
+                                                    [File Fromat *.jpg/*.png, Dimension Width(840-1260)px and
+                                                    Height(1224-1836)px, File
+                                                    Size(75-150)kb]
+                                                </mat-error>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button mat-raised-button (click)="onDocumentSave()" class="mt-2 float-right"
+                            color="primary">Done</button>
+                        <button type="button" matStepperPrevious mat-raised-button class="mr-2 mt-2 float-right"
+                            color="green">Back</button>
+                    </div>
+                </div>
+            </mat-step>
+        </mat-horizontal-stepper>
+    </div>
+</div>

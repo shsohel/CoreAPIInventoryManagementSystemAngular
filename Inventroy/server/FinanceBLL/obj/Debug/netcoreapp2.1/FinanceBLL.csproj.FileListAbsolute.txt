@@ -52,3 +52,17 @@ C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\ob
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.deps.json
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\FinanceBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csprojAssemblyReference.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfoInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.AssemblyInfo.cs
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CoreCompileInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.csproj.CopyComplete
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\FinanceBLL\obj\Debug\netcoreapp2.1\FinanceBLL.pdb

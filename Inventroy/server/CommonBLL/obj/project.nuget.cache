@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ObW1nKF4rbkCpRjS5aGOupxw0qQFWlOhrxM9G6khBTrwhgsdDfmB9O3vn87cn5OeCixrcaawxqZXmT2bjH8tA==",
+  "dgSpecHash": "U0ucrd3mgYD4/s3KByLOoHHKfOaaFTj+9W+1k+xICzo7cIJDmkZL8ashT/OI2JeDgrgqEwUebKi4PiQR+7UYuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
+  "projectFilePath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\mailkit\\2.5.1\\mailkit.2.5.1.nupkg.sha512",
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.0\\microsoft.aspnetcore.authentication.2.1.0.nupkg.sha512",

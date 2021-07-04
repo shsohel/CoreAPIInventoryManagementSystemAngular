@@ -1,0 +1,68 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Expense</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Salary Payment</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Salary Payment</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Salary Payment</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addSalaryPaymentForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field>
+                <input matInput class="input-full-width" [matDatepicker]="dp" placeholder="Salary Payment Date"
+                    formControlName="salaryPaymentDate">
+                <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+                <mat-error *ngIf="addSalaryPaymentForm.get('salaryPaymentDate').hasError('required')">
+                    Salary Payment Date is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Employee ID" formControlName="employeeId">
+                <mat-error *ngIf="addSalaryPaymentForm.get('employeeId').hasError('required')">
+                    Employee ID is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <select matNativeControl id="expenseHeadId" formControlName="expenseHeadId">
+                    <option value="" disabled selected>Select Expense Head</option>
+                    <option *ngFor="let type of expenseType" [value]="type">
+                        {{lstExpenseType[type]}}
+                    </option>
+                </select>
+                <mat-error *ngIf="addSalaryPaymentForm.get('expenseHeadId').hasError('required')">
+                    Expense Head is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Voucher Number" formControlName="voucherId">
+                <mat-error *ngIf="addSalaryPaymentForm.get('voucherId').hasError('required')">
+                    Voucher number is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Paid Amount" formControlName="paidAmount">
+                <mat-error *ngIf="addSalaryPaymentForm.get('paidAmount').hasError('required')">
+                    Paid Amount is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea matInput placeholder="Note" formControlName="note"></textarea>
+                <mat-error *ngIf="addSalaryPaymentForm.get('note').hasError('required')">
+                    Note is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button type="button" routerLink="/expense/salaryPaymentList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

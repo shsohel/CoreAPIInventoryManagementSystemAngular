@@ -51,3 +51,17 @@ C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\PurchaseBLL\o
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.csproj.CopyComplete
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.dll
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\PurchaseBLL.deps.json
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\PurchaseBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\PurchaseBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.csprojAssemblyReference.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.AssemblyInfoInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.AssemblyInfo.cs
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.csproj.CoreCompileInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.csproj.CopyComplete
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\PurchaseBLL\obj\Debug\netcoreapp2.1\PurchaseBLL.pdb

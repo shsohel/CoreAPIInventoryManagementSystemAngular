@@ -52,3 +52,17 @@ C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\ob
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.deps.json
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\ExpenseBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csprojAssemblyReference.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfoInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.AssemblyInfo.cs
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CoreCompileInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.csproj.CopyComplete
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\ExpenseBLL\obj\Debug\netcoreapp2.1\ExpenseBLL.pdb

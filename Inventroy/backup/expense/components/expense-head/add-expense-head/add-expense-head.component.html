@@ -1,0 +1,55 @@
+<mat-card class="mat-medium-font mt-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Expense</a></li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item">Expense Head</li>
+            <i class="fas fa-square-full list_style_square"></i>
+            <li class="breadcrumb-item active" aria-current="page">Add Expense Head</li>
+        </ol>
+    </nav>
+    <div class="">
+        <h5 class="font-material">Add Expense Head</h5>
+    </div>
+</mat-card>
+<div class="card-body card-white-background">
+    <div class="col d-flex justify-content-center">
+        <form [formGroup]="addExpenseHeadForm" (ngSubmit)="onSubmit()" novalidate class="example-form">
+            <input matInput hidden formControlName="id">
+            <mat-form-field class="input-full-width">
+                <select matNativeControl id="expenseTypeId" formControlName="expenseTypeId">
+                    <option value="" disabled selected>Select Expense Type</option>
+                    <option *ngFor="let type of expenseType" [value]="type">
+                        {{lstExpenseType[type]}}
+                    </option>
+                </select>
+                <mat-error *ngIf="addExpenseHeadForm.get('expenseTypeId').hasError('required')">
+                    Expense Type is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <select matNativeControl id="parentId" formControlName="parentId">
+                    <option value="" disabled selected>Select Parent Type</option>
+                    <option *ngFor="let type of expenseType" [value]="type">
+                        {{lstExpenseType[type]}}
+                    </option>
+                </select>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <input matInput placeholder="Name" formControlName="name">
+                <mat-error *ngIf="addExpenseHeadForm.get('name').hasError('required')">
+                    Name is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="input-full-width">
+                <textarea matInput placeholder="Description" formControlName="description"></textarea>
+                <mat-error *ngIf="addExpenseHeadForm.get('description').hasError('required')">
+                    Description is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>            
+            <button Head="submit" mat-raised-button class="btn-custom mt-2 float-right" color="primary">Save</button>
+            <button Head="button" routerLink="/expense/expenseHeadList" mat-raised-button
+                class="btn-custom mr-2 mt-2 float-right" color="warn">Cancel</button>
+        </form>
+    </div>
+</div>

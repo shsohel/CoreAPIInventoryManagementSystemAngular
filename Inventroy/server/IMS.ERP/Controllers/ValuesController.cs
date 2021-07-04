@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IMS.ERP.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {

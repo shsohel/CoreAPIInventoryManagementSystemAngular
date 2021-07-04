@@ -1,0 +1,16 @@
+{
+  "EmployeeId": 0,
+  "Email": "shsohel.tc@gmail.com",
+  "MobileNo": "01811275653",
+  "Password": "Shs@123Sj5",
+  "ConfirmPassword": "Shs@123Sj5",
+  "UserName": "shsohel",
+  "UserType": 1,
+  "UserTypeName": "Admin",
+  "Status": 1
+}
+
+{
+"UserName": "shsohel",
+"Password": "Shs@123Sj5"
+}

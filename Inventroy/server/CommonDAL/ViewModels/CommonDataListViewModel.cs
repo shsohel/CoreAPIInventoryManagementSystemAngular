@@ -27,8 +27,5 @@ namespace CommonDAL.ViewModels
         public IEnumerable<Manufacturer> lstManufacturers { get; set; }
         public IEnumerable<SpecificationAttribute> lstSpecificationAttributes { get; set; }
         public IEnumerable<SpecificationAttrValue> lstSpecificationAttrValues { get; set; }
-
-
-
     }
 }

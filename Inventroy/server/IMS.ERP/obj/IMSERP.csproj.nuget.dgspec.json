@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj": {}
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj",
         "projectName": "AdminBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,15 +30,16 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj"
               }
             }
           }
@@ -51,6 +52,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -69,18 +71,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
         "projectName": "CommonBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -99,9 +101,10 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               }
             }
           }
@@ -114,6 +117,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "MailKit": {
               "target": "Package",
@@ -144,18 +148,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
         "projectName": "CommonDAL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -174,6 +178,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -185,6 +190,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -215,18 +221,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj",
         "projectName": "ExpenseBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -245,12 +251,13 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               }
             }
           }
@@ -263,6 +270,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -281,18 +289,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj",
         "projectName": "FinanceBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -311,12 +319,13 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               }
             }
           }
@@ -329,6 +338,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -347,18 +357,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj",
         "projectName": "IMSERP",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\IMS.ERP\\IMSERP.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\IMS.ERP\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\IMS.ERP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -377,27 +387,28 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\AdminBLL\\AdminBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\ExpenseBLL\\ExpenseBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\FinanceBLL\\FinanceBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\StockBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\StockBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\StockBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\StockBLL.csproj"
               }
             }
           }
@@ -410,6 +421,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -431,6 +443,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.1.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
@@ -443,18 +459,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
         "projectName": "PurchaseBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -473,12 +489,13 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               }
             }
           }
@@ -491,6 +508,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -509,18 +527,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\StockBLL.csproj": {
+    "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\StockBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\StockBLL.csproj",
+        "projectUniqueName": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\StockBLL.csproj",
         "projectName": "StockBLL",
-        "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\StockBLL.csproj",
+        "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\StockBLL.csproj",
         "packagesPath": "C:\\Users\\SH SOHEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\StockBLL\\obj\\",
+        "outputPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\StockBLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -539,12 +557,13 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonBLL\\CommonBLL.csproj"
               },
-              "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
-                "projectPath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
+              "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj": {
+                "projectPath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\CommonDAL\\CommonDAL.csproj"
               }
             }
           }
@@ -557,6 +576,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -575,7 +595,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

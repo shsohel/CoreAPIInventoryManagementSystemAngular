@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "77M1CPj6eU1EHnR0nNEXqAB1PupLIQhLIxHd6GpM5OuQEYYnFTUnXAtkI25T5pi33CwYxUKu3XcemFwyGNy48g==",
+  "dgSpecHash": "iPuL/1Sfeo4FDSk1iNaqTRWZUq4S7tC3gszx76OdI8GZPdB0EnWqr7/NN4jmlcW7WDb4EygQ21ASzW4Pp/DGlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SH SOHEL\\Desktop\\Application\\Application\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
+  "projectFilePath": "D:\\GitHub old\\CoreAPIInventoryManagementSystemAngular\\Inventroy\\server\\PurchaseBLL\\PurchaseBLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\mailkit\\2.5.1\\mailkit.2.5.1.nupkg.sha512",
     "C:\\Users\\SH SOHEL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.0\\microsoft.aspnetcore.authentication.2.1.0.nupkg.sha512",

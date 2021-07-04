@@ -1,0 +1,84 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mat-toolbar.mat-primary{
+  background: #024731!important;
+}
+.spacer{
+  flex: auto 1 1;
+}
+.app-nav-link{
+  position: relative;
+  color: white;
+  font-size: .8rem;
+}
+/* .app-nav-icon{
+  position: absolute;
+  margin-top: .3rem;
+  font-size: 20px!important;
+  left: 0;
+  margin-left: -.5rem;
+} */
+.app-nav-icon{
+  position: absolute;
+  margin-top: -.8rem;
+  left: 0;
+}
+.app-nav-notification{
+  margin-top: -.3rem!important;
+}
+.sidenav .mat-toolbar{
+  background: #024731!important;
+  color: white;
+}
+.btn-menu{
+  width: 100%;
+  line-height: 40px!important;
+  text-align: left;
+  padding-left: 20px;
+}
+.menu-icon{
+  padding-right: 20px;
+}
+.mat-menu-panel {
+  min-width: 200px!important;
+}
+.mat-menu-item{
+  line-height: 40px!important;
+  height: auto;
+}
+.mat-list-base{
+  padding-top: 0px!important;
+}
+.nav-link {
+  padding: .5rem 1.5rem!important;
+}
+.header-profile-btn{
+  background: inherit;
+  border: 0;
+  outline: none;
+}
+.header-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.header-image-pf{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}

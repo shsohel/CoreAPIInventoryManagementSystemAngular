@@ -39,10 +39,10 @@ namespace IMSERP.Controllers
         {
             try
             {
-                CommonDataListViewModel organizationViewModels = await commonDataListBLL.GetCommondDataLists();
-                if (organizationViewModels != null)
+                CommonDataListViewModel commonDataViewModels = await commonDataListBLL.GetCommondDataLists();
+                if (commonDataViewModels != null)
                 {
-                    return Ok(new { status = 200, obj = organizationViewModels, message = "Common Data List has retrive successfully." });
+                    return Ok(new { status = 200, obj = commonDataViewModels, message = "Common Data List has retrive successfully." });
                 }
             }
             catch (Exception e)

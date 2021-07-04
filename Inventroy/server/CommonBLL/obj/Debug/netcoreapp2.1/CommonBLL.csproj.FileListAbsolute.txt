@@ -44,3 +44,15 @@ C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
 C:\Users\SH SOHEL\Desktop\Application\Application\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.deps.json
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonBLL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\bin\Debug\netcoreapp2.1\CommonDAL.pdb
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csprojAssemblyReference.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfoInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.AssemblyInfo.cs
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CoreCompileInputs.cache
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.csproj.CopyComplete
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.dll
+D:\GitHub old\CoreAPIInventoryManagementSystemAngular\Inventroy\server\CommonBLL\obj\Debug\netcoreapp2.1\CommonBLL.pdb
